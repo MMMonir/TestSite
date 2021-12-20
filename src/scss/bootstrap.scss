@@ -1,0 +1,12 @@
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+@import '../../node_modules/bootstrap/scss/mixins';
+$grid-columns: 24;
+$grid-row-columns: 12;
+
+$headings-font-weight: 700;
+$display-font-weight: 700;
+$nav-link-font-size: 14px;
+$nav-link-font-weight: 700;
+
+@import '../../node_modules/bootstrap/scss/bootstrap';
