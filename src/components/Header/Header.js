@@ -5,7 +5,7 @@ const Header = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-white fixed-top">
                 <div className="container">
-                    <a className="navbar-brand" href="#">ReactSite</a>
+                    <a className="navbar-brand" href="#">RSCoding</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
@@ -36,7 +36,6 @@ const Header = () => {
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     </ul>
-                    <button class="btn btn-primary ms-lg-3">Join Us</button>
                     </div>
                 </div>
                 </nav>

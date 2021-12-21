@@ -2,18 +2,19 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <section className='vh-100 d-flex align-items-center' id='home'>
-            <div className="container">
-                <div className="row text-center">
-                    <div className="col-md-14 mx-auto">
-                        <h1 className='display-4 text-white'>Build robust landing pages now</h1>
-                        <p className='text-white'>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. Lorem ipsum, or lipsum as it is sometimes known</p>
-                        <button className='btn btn-primary me-2'>Get Started</button>
-                        <button className='btn btn-outline-light'>My Portfolio</button>
+        <section id="home">
+        <div class="overlay vh-100 d-flex align-items-center justify-content-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-20 mx-auto text-center text-white">
+                        <h1 class="my-3" data-aos="zoom-in">We Will Build Responsive Website<br /> for you and your company</h1>
+                        <p class="text-white" data-aos="fade-up">We Will Build Responsive Website By HTML, Css, Bootstrap, Javascript, React, Mongobd, Nodejs, <br />Firebase authentication, emailjs contact form, mailchimp Subscribe Form and so on.</p>
+                        <button class="btn btn-warning" data-aos="fade-up">Get Started</button>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     );
 };
 
